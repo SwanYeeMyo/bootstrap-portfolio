@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   scroll-behavior: smooth;
+}
+.span-color{
+    font-size: 15px;
+    
+    color: #EEF5F1;
+}
+.top{
+color: #fff;
+font-size: 20px;
+border-radius: 30px;
+position: fixed;
+top: 850px;
+left: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.span{
+    color: #6C63FF;
+}
+.bg-contact{
+    background-color:#262B39;
+}
+footer{
+    width: 100%;
+    height: 100px;
+}
+.image-email{
+    width: 30px;
+}
+.line{
+   background-color: red;
+   height: 0.5px;
+    width: 70px;
+}
+.myself{
+    background-color: #262B39;
+}
+.bg-purple{
+    background-color: #4F4679;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+
+    border: 2px solid #0d96e0;
+
+    border-radius: 20px;
+
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #6C63FF;
+
+}
+.box{
+    position: relative;
+    overflow: hidden;
+}
+.menu_wrapper .navbar1 li a{
+    color:blue;
+    transform: 0.5s ease;
+}
+    @media (min-width:1009px) {
+        .menu_wrapper .navbar1 li .active1 
+     {
+        border-bottom: 2px solid red;
+        width: 100%;
+        transition: 0.5s ease;
+        color: white;
+     
+    }
+    }       
+    .content{
+    background: rgba(135, 102, 200, 0.75);
+    align-items: center;
+    color: white;
+    left: 0;
+    right: 0;
+    height: 52%;
+    bottom: -100%;
+    position: absolute;
+    transition: all 0.5s ease;
+    }
+    .box:hover .content{
+        bottom: 0;
+    }
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+#html-bar{
+    animation: html-fill 3s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+#css-bar{
+    animation: css-fill 3s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+
+#javascript-bar{
+    animation: js-fill 3s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 62%;
+    }
+}
+
+#jQuery-bar{
+    animation: jQuery-fill 3s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 80%;
+    }
+} 
+#JQuery-bar{
+    animation: JQuery-fill 3s forwards;
+}
+@keyframes JQuery-fill{
+    100%{
+        width: 50%;
+    }
+} 
+
+#laravel-bar{
+    animation: laravel-fill 3s forwards;
+}
+@keyframes laravel-fill{
+    100%{
+        width: 80%;
+    }
+} 
