@@ -90,7 +90,7 @@ footer{
     color: white;
     left: 0;
     right: 0;
-    height: 52%;
+    height: 100%;
     bottom: -100%;
     position: absolute;
     transition: all 0.5s ease;
